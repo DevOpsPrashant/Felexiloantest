@@ -13,7 +13,7 @@ spec:
         app: flexiloan-nodeapp
     spec:
       containers:
-      - name: fflexiloan-nodeapp
+      - name: flexiloan-nodeapp
         image: pras1804/flexiloan:latest
         imagePullPolicy: Always
         ports:
