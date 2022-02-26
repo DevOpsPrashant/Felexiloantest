@@ -32,6 +32,7 @@ spec:
       port: 80
       targetPort: 8080
   type: LoadBalancer
+---
 
 #HPA configuration
 apiVersion: autoscaling/v1
