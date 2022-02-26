@@ -38,7 +38,7 @@ spec:
 apiVersion: autoscaling/v1
 kind: HorizontalPodAutoscaler
 metadata:
-  name: flexiloan-nodeapp
+  name: flexiloan-nodeapp-hpa
 spec:
   scaleTargetRef:
     apiVersion: apps/v1
