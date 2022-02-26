@@ -32,7 +32,7 @@ pipeline {
         stage ('EKS deployment') {
             steps {
                 kubernetesDeploy (
-                    configs: 'Felexiloantest/flexiloank8sfile.yaml',
+                    configs: 'flexiloank8sfile.yaml',
                     kubeconfigId: 'K8S',
                     enableConfigSubstitution: true
                     )
